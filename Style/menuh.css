@@ -1,0 +1,141 @@
+@font-face {
+  font-family: "Safira March";
+  src: url(../fonts/Safira\ March.otf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "riesling";
+  src: url(../fonts/riesling.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Safira March", Serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  background-image: url("../multimedia/fons.png");
+   
+  background-color: #ede2d3;
+  background-size: cover;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ede2d3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #5a4a3c;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #5a4a3c;
+  color: #ede2d3;
+}
+
+.active {
+  letter-spacing: 2px;
+  background-color: #5a4a3c;
+  color: #ede2d3;
+}
+
+.active:hover {
+  background-color: #ede2d3;
+  color: #5a4a3c;
+}
+.pnt {
+  font-family: 'riesling'; 
+  font-size: 40px;
+  line-height: 0;
+}
+
+.num {
+  font-family: 'riesling'; 
+  font-size: 27px;
+  font-style: bold;
+}
+
+#logoI {
+  display: block;
+  margin: 5% auto;
+  border: solid 1px #5a4a3c;
+}
+
+nav li ul li {
+  position:relative;
+}
+nav li:hover > ul {
+  display:block;
+}
+nav li ul {
+  display:none;
+  position:absolute;
+  width:155px;
+}
+
+#prod1 {
+  display: block;
+  margin: 5% auto;
+  margin-bottom: 0%;
+}
+
+#prod {
+  width: 360px;
+  display: block;
+  margin: 5% auto;
+  margin-bottom: 0%;
+}
+
+.centrat {
+  text-align: center;
+}
+
+.centratb {
+  text-align: center;
+  font-size: 9px;
+}
+
+#compras {
+  font-family: "Safira March", Serif;
+  font-size: 9px;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+footer {
+  margin: 10px;
+  margin-top: 3%;
+  font-size: 8px;
+}
+
+#tablas {
+  width: 600px;
+  display: block;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #5a4a3c;
+}
+
+.bord {
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px #5a4a3c;
+}

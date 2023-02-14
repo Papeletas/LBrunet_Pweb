@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>ëcrem</title>
+    <link rel="stylesheet" href="../Style/menuh.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../InicioIndice.html">ëcrem</a></li>
+                <li><a href="../paginas/productos.html">Productos</a>
+                    <ul>
+                        <li><a href="./productos/colgantes.html">Colgantes</a></li>
+                        <li><a href="./productos/pendientes.html">Pendientes</a></li>
+                        <li><a href="./productos/bolsos.html">Bolsos</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a class="active" href="../paginas/contacto.html">Contacto</a></li>
+                <li style="float:right"><a href="../paginas/acerca-de-nosotros.html">Acerca de nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="enviar-mensaje.php" method="post">
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </p>
+            <p>
+                <label for="mensaje">Mensaje: </label>
+                <textarea id="mensaje" name="mensaje" rows="8" cols="54"></textarea>
+                <input type="submit" value="Enviar">
+            </p>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; ëcrem</p>
+    </footer>
+</body>
+
+</html>
